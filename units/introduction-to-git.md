@@ -5,7 +5,11 @@
 
 # Introducción a GIT
 
+<br><br>
+
 ![GIT](../assets/img/gitlogo.png)
+
+<br><br>
 
 ## 1. ¿Qué es y para que lo uso?
 
