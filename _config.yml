@@ -1,5 +1,5 @@
 # name of the software
-name: Projects
+name: Data Science Buffet
 
 project:
     version: 0.1.0
@@ -20,14 +20,14 @@ links:
 
 ui:
     header:
-        color1: "#080331"
-        color2: "#673051"
+        color1: "#0000FF"
+        color2: "#ADD8E6"
         trianglify: true
 
 social:
     github:
         user: mazzanicolas
-        repo: projects
+        repo: dsbuffet
     twitter:
         enabled: false
         via:
