@@ -40,3 +40,4 @@ Es un mini-curso introductorio para Data Science en Python. Esta enfocado para p
    1. Funciones básicas de Pandas
 7. Introducción Scikit Learn
 
+<br><br>

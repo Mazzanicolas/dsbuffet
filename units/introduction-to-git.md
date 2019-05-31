@@ -12,3 +12,6 @@
 ## 2. Instalación
 
 ## 3. Comandos básicos
+
+
+<br><br>
