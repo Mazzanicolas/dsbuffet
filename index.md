@@ -6,7 +6,6 @@ title: Data Science Buffet
 
 ![Data Science Buffet](./assets/img/logo.png)
 
-# 
 
 <br><br><br><br>
 
@@ -18,7 +17,7 @@ Es un mini-curso introductorio para Data Science en Python. Esta enfocado para p
 
 # Temas
 
-1. Introducción a GIT
+1. [Introducción a GIT](./units/introduction-to-git.md)
    1. ¿Qué es y para que lo uso?
    2. Instalación
    3. Comandos básicos
