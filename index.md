@@ -12,7 +12,7 @@ title: Data Science Buffet
 
 # ¿Qué es Data Science Buffet?
 
-Es un mini-curso introductorio para Data Science en Python. Esta enfocado para personas que no tienen conocimientos en programación y quieren iniciarse en el area de Data Science usando Python.
+Es un mini-curso introductorio para Data Science en Python. Esta enfocado para personas que no tienen conocimientos en programación y quieren iniciarse en el área de Data Science usando Python.
 
 <br><br>
 
