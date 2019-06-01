@@ -18,7 +18,7 @@ Git es un software de control de versionado, pensando en la eficiencia y la conf
 Nos permite tomar un proyecto en el cual estamos trabajando de forma local (en nuestro equipo) y guardarlo de forma segura en un servidor remoto (probablemente internet). Con unos simples comandos nos permite sincronizar los archivos locales y remotos manteniendo un historial de las diferentes versiones. Con esto ultimo siempre tenemos la posibilidad de volver a una version anterior. También nos permite compartir los proyectos con otras personas, trabajar en equipos y muchas otras funcionalidades que no vamos a mencionar.
 
 Pero, ¿donde exactamente se están guardando los proyectos?
-Existen varios sitios que ofrecen estos servicios (con tanto planes gratuitos como pagos) por nombrar algunos tenemos:
+Para esto existen varios sitios que ofrecen estos servicios (con planes tanto gratuitos, como pagos) por nombrar algunos tenemos:
 
 * [GitHub](https://github.com)
 ![GitHub](../assets/img/unit-1/githublogo.png)
@@ -28,6 +28,8 @@ Existen varios sitios que ofrecen estos servicios (con tanto planes gratuitos co
 
 * [BitBucket](https://bitbucket.org)
 ![BitBucket](../assets/img/unit-1/bitbucketlogo.png)
+
+En esta introducción a git vamos a utilizar [GitHub](https://github.com), asi que no tienes cuna cuenta, creala [aquí](https://github.com/join?source=header-home).
 
 ## 2. Instalación
 
@@ -55,10 +57,56 @@ Existen varios sitios que ofrecen estos servicios (con tanto planes gratuitos co
 
 **Nota:** *Los métodos y comandos que vamos a utilizar pueden no ser los mejores, pero a mi consideración, son los mas simples para las personas que no tienen conocimientos informáticos.*
 
+Lo primero que vamos a hacer es crear un proyecto, para eso seleccionamos New en **Repositories** (*repositories o repo es como se les llama a los proyectos en GitHub*).
+
+![Repo](../assets/img/unit-1/repositories.png)
+
+Le damos un nombre al proyecto/repositorio, se puede agregar una descripción del proyecto, podemos elegir si el repositorio va a ser público o privado y seleccionamos *Initialize this repository with a README* que es un archivo en formato markdown que vamos a utilizar mas adelante.
+
+![Repo](../assets/img/unit-1/newrepo.png)
+
+Una vez que el repositorio este creado nos redireccionara a la vista del proyecto
+
+![Repo](../assets/img/unit-1/repo.png)
+
+El repositorio esta creado y guardado, pero esta en los servidores de GitHub. Ahora vamos a descargarlo en nuestra computadora agregar un archivo y subirlo.
+
+Primero vamos a abrir la consola/powershell/terminal dependiendo del sistema operativo y vamos a ingresar los siguientes comandos:
+
+1 - Vamos a hacer un par de configuraciónes con el git.
+
+Vamos a darnos un nombre
+
+`git config --global user.name "John Doe"`
+
+Vamos a ingresar el correo con el que nos creamos la cuenta de git
+
+`git config --global user.email "johndoe@example.com"`
+
+La consola no nos va a dar ninguna respuesta, simplemente va a saltar a una nueva linea (si todo salio correctamente).
+
+2 - Vamos a descargar nuestro proyecto, para esto volvemos a nuestro proyecto en github y seleccionamos el botón **Clone or download** (nos aseguramos que diga Clone with HTTPS en la parte superior) y copiamos la url que nos aparece.
+
+![Clone](../assets/img/unit-1/clone.png)
+
+Volvemos a la consola y usamos el comando **git clone** seguido de la url que acabamos de copiar para descargarlo.
+
+**Nota:** *Esto nos va a descargar el proyecto en la carpeta que se encuentre ubicada la consola, si estamos en **C:\\** lo va a descargar en **C:\\**. Para ver las carpetas que estan en la ubicación actual de la consola usamos `dir` (en windows) `ls` (en Mac/Linux). Para entrar a una de esas carpetas usamos `cd nombreDeLaCarpeta` y para retroceder a la carpeta anterior usamos `cd ..`*
+
+`git clone https://github.com/NombreDeUsuario/NombreDelProyecto.git`
+
+La primera vez puede pedirnos el usuario y contraseña de github y deberíamos de ver un mensaje similar en la consola.
+
+![Cloned](../assets/img/unit-1/cloned.png)
+
+Luego podemos hacer `cd NombreDelProyecto` para entrar en la carpeta y `dir` o `ls` para confirmar que tenemos el archivo README.md que creamos con nuestro proyecto.
+
+![Cloned](../assets/img/unit-1/clonedsuccess.png)
 
 ## Referencias y links relevantes
 
 * [Documentación oficial de GIT](https://git-scm.com/doc)
 * [Más información sobre que es GIT (github)](https://www.howtogeek.com/180167/htg-explains-what-is-github-and-what-do-geeks-use-it-for/)
+* [Información sobre markdown](https://es.wikipedia.org/wiki/Markdown)
 
 <br><br>

@@ -39,5 +39,6 @@ Es un mini-curso introductorio para Data Science en Python. Esta enfocado para p
 6. Introducción al análisis de datasets con Pandas
    1. Funciones básicas de Pandas
 7. Introducción Scikit Learn
+8. Publicar proyectos en GitHub Pages (tu propio sitio web, simple y gratuito)
 
 <br><br>
