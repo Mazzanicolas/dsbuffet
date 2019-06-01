@@ -18,9 +18,9 @@ Es un mini-curso introductorio para Data Science en Python. Esta enfocado para p
 # Temas
 
 1. [Introducción a GIT](./units/introduction-to-git.md)
-   1. ¿Qué es y para que se puede usar?
-   2. Instalación
-   3. Comandos básicos
+   1. [¿Qué es y para que se puede usar?](./units/introduction-to-git.md#1-qué-es-y-para-que-se-puede-usar)
+   2. [Instalación](./units/introduction-to-git.md#2-instalación)
+   3. [Comandos básicos](./units/introduction-to-git.md#3-comandos-básicos)
 2. Ambiente para la programación en Python 
    1. Instalación
    2. Instalación de librerías y comando pip
