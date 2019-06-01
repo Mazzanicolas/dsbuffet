@@ -103,6 +103,66 @@ Luego podemos hacer `cd NombreDelProyecto` para entrar en la carpeta y `dir` o `
 
 ![Cloned](../assets/img/unit-1/clonedsuccess.png)
 
+Ahora vamos a agregar un archivo, los que esten en Mac pueden escribir en la consola `open .` para abrir la carpeta en la cual se encuentran, los usuarios de windows tendrán que buscarla desde el explorador de archivos. Una vez abierta la carpeta podrán ver el archivo README.md que creamos (si no ven la carpeta **.git** es porque tienen escondidos los archivos ocultos, esto no es de importancia).
+
+![Cloned](../assets/img/unit-1/folder.png)
+
+Vamos a crear un nuevo archivo de texto y llamarlo `archivo.py` (si nos sale un cartel le damos que si y si ya tenemos instalado python nos va a cambiar el icono).
+
+![Cloned](../assets/img/unit-1/file.png)
+
+Ya que estamos vamos a editar el archivo README.md, para esto podemos usar el procesador de texto de nuestra preferencia, por ejemplo el Bloc de Notas o Notepad. Una vez abierto el archivo README.md debería tener dentro algo similar:
+
+```
+# NombreDelProyecto
+```
+
+Vamos a remplazar esto por:
+
+**Nota:** *Pueden poner lo que quieran, lo importante es modificarlo.*
+
+```
+# Nombre Del Proyecto
+
+Este es un proyecto de prueba que tiene un archivo `archivo.py` y un `README.md`
+```
+
+Guardamos los cambios, cerramos y volvemos a la consola. Vamos a ver los cambios realizados con el siguiente comando:
+
+`git status`
+
+![Status](../assets/img/unit-1/status.png)
+
+Podemos ver primero en rojo que el archivo `README.md` fue modificado y luego que se creo un `archivo.py`. Ahora vamos a iniciar el proceso en el cual seleccionamos que archivos queremos subir, le damos un nombre a la versión y los subimos.
+
+1 - Seleccionar archivos para subir.
+
+Para esto usamos el comando **git add** seguido del nombre del archivo a agregar. También podemos uasr **git add .** para agregar todos los archivos. Vamos a agregar el **archivo.py** y usar el comando **git status** para ver si se agrego correctamente.
+
+![Add](../assets/img/unit-1/add.png)
+
+Podemos ver como ahora el archivo aparece listo para subir (a subir un archivo o conjunto de archivos se le dice **commit**).
+
+Vamos a agregar el **README.md** de la misma forma.
+
+`git add README.md`
+
+Una vez que los archivos esten listos para subir (*commitear*) tenemos que darle un nombre a la versión o una descripción, para esto usamos *git commit -m* segudio de un mensaje o nombre entre comillas dobles `"`.}
+
+`git commit -m "Nuevo archivo y cambio a README"`
+
+![Commit](../assets/img/unit-1/commit.png)
+
+Podemos ver que los cambios estan listos para subir y usamos el comando **git push** para subirlos a github.
+
+`git push`
+
+![Push](../assets/img/unit-1/push.png)
+
+Listo! Ahora podemos volver a la página de GitHub, refrescarla (F5 / Ctrl+Shift+R) y ver los cambios.
+
+![Push](../assets/img/unit-1/commited.png)
+
 ## Referencias y links relevantes
 
 * [Documentación oficial de GIT](https://git-scm.com/doc)
