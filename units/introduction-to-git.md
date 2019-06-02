@@ -153,7 +153,7 @@ Una vez que los archivos esten listos para subir (*commitear*) tenemos que darle
 
 ![Commit](../assets/img/unit-1/commit.png)
 
-Podemos ver que los cambios estan listos para subir y usamos el comando **git push** para subirlos a github.
+Podemos ver que los cambios están listos para subir y usamos el comando **git push** para subirlos a github. Si hasta el momento no nos pidió usuario y contraseña, ahora nos va hacer autenticar para poder subir los cambios.
 
 `git push`
 
